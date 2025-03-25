@@ -3,259 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="VIT Ethnus MERN Certification Assignments by Kartikey Vishwakarma">
-    <title>VIT Ethnus Mern Certification Assignment 1</title>
-    <style>
-        :root {
-            --primary-color: #007BFF;
-            --secondary-color: #2c3e50;
-            --background-color: #f8f9fa;
-            --accent-color: #e74c3c;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            background-color: var(--background-color);
-            line-height: 1.6;
-        }
-
-        header {
-            background: linear-gradient(135deg, var(--primary-color), #0056b3);
-            color: white;
-            padding: 3rem 2rem;
-            text-align: center;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-            animation: slideDown 0.8s ease-out;
-        }
-
-        @keyframes slideDown {
-            from {
-                transform: translateY(-100%);
-                opacity: 0;
-            }
-            to {
-                transform: translateY(0);
-                opacity: 1;
-            }
-        }
-
-        .container {
-            flex: 1;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 2rem;
-        }
-
-        .task-section {
-            background: white;
-            border-radius: 12px;
-            padding: 2rem;
-            margin: 2rem 0;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            animation: fadeIn 0.6s ease-out forwards;
-            opacity: 0;
-        }
-
-        .task-section:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 25px rgba(0,0,0,0.12);
-        }
-
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        h2 {
-            color: var(--secondary-color);
-            margin-bottom: 1.5rem;
-            font-size: 1.8rem;
-            position: relative;
-            padding-bottom: 0.5rem;
-        }
-
-        h2::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 50px;
-            height: 3px;
-            background-color: var(--accent-color);
-            border-radius: 2px;
-        }
-
-        .task-list {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-            gap: 1.2rem;
-            list-style: none;
-            padding: 0;
-        }
-
-        .task-list li {
-            background: #ffffff;
-            border-radius: 8px;
-            padding: 1.2rem;
-            transition: all 0.3s ease;
-            border: 1px solid #e0e0e0;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .task-list li:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-            border-color: var(--primary-color);
-        }
-
-        .task-list li::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: -100%;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(
-                90deg,
-                transparent,
-                rgba(0,123,255,0.1),
-                transparent
-            );
-            transition: left 0.6s;
-        }
-
-        .task-list li:hover::before {
-            left: 100%;
-        }
-
-        a {
-            color: var(--primary-color);
-            text-decoration: none;
-            display: block;
-            transition: color 0.3s ease;
-            position: relative;
-            padding-left: 24px;
-        }
-
-        a::before {
-            content: '➜';
-            position: absolute;
-            left: 0;
-            opacity: 0.7;
-            transition: transform 0.3s ease;
-        }
-
-        a:hover {
-            color: var(--accent-color);
-            text-decoration: underline;
-        }
-
-        a:hover::before {
-            transform: translateX(4px);
-        }
-
-        footer {
-            background-color: var(--secondary-color);
-            color: white;
-            text-align: center;
-            padding: 1.5rem;
-            margin-top: auto;
-            border-top: 3px solid var(--accent-color);
-            animation: slideUp 0.8s ease-out;
-        }
-
-        @keyframes slideUp {
-            from {
-                transform: translateY(100%);
-                opacity: 0;
-            }
-            to {
-                transform: translateY(0);
-                opacity: 1;
-            }
-        }
-
-        @media (max-width: 768px) {
-            .container {
-                padding: 1.2rem;
-            }
-            
-            .task-section {
-                padding: 1.5rem;
-                margin: 1.5rem 0;
-            }
-
-            h2 {
-                font-size: 1.5rem;
-            }
-        }
-    </style>
+    <title>VIT Ethnus MERN Certification Assignment 1</title>
 </head>
 <body>
-    <header>
-        <h1>VIT Ethnus MERN Certification Assignment 1</h1>
-        
-    </header>
 
-    <div class="container">
-        <div class="task-section" style="animation-delay: 0.2s;">
-            <h2>Student Information</h2>
-            <p><strong>Name:</strong> Kartikey Vishwakarma</p>
-            <p><strong>Reg. No:</strong> 22BHI10079</p>
-            <p><strong>Email:</strong> <a href="mailto:kartikeyvishwakarma2022@vitbhopal.ac.in">kartikeyvishwakarma2022@vitbhopal.ac.in</a></p>
-        </div>
+    <h2 style="text-align: center;">
+        VIT Ethnus MERN Certification Assignment 1
+        <br><br>
+        Name: Kartikey Vishwakarma <br>
+        Reg. No: 22BHI10079 <br>
+        Email ID: 
+        <a href="mailto:kartikeyvishwakarma2022@vitbhopal.ac.in">kartikeyvishwakarma2022@vitbhopal.ac.in</a>
+    </h2>
 
-        <div class="task-section" style="animation-delay: 0.4s;">
-            <h2>HTML Tasks</h2>
-            <ul class="task-list">
-                <li><a href="./htmltask/task1.html" target="_blank" rel="noopener noreferrer">Task 1 - Basic HTML Structure</a></li>
-                <li><a href="./htmltask/task2.html" target="_blank" rel="noopener noreferrer">Task 2 - Forms and Inputs</a></li>
-                <li><a href="./htmltask/task3.html" target="_blank" rel="noopener noreferrer">Task 3 - Semantic HTML</a></li>
-                <li><a href="./htmltask/task4.html" target="_blank" rel="noopener noreferrer">Task 4 - HTML Tables</a></li>
-                <li><a href="./htmltask/task5.html" target="_blank" rel="noopener noreferrer">Task 5 - Multimedia Embedding</a></li>
-            </ul>
-        </div>
+    <h3>Tasks of HTML</h3>
+    <a href="./htmltask/task1.html" target="_blank">Task 1</a><br>
+    <a href="./htmltask/task2.html" target="_blank">Task 2</a><br>
+    <a href="./htmltask/task3.html" target="_blank">Task 3</a><br>
+    <a href="./htmltask/task4.html" target="_blank">Task 4</a><br>
+    <a href="./htmltask/task5.html" target="_blank">Task 5</a><br>
 
-        <div class="task-section" style="animation-delay: 0.6s;">
-            <h2>CSS Tasks</h2>
-            <ul class="task-list">
-                <li><a href="./csstask/task1.html" target="_blank" rel="noopener noreferrer">Task 1 - Basic Styling</a></li>
-                <li><a href="./csstask/task2.html" target="_blank" rel="noopener noreferrer">Task 2 - Layout Techniques</a></li>
-                <li><a href="./csstask/task3.html" target="_blank" rel="noopener noreferrer">Task 3 - Responsive Design</a></li>
-                <li><a href="./csstask/task4.html" target="_blank" rel="noopener noreferrer">Task 4 - CSS Animations</a></li>
-                <li><a href="./csstask/task5.html" target="_blank" rel="noopener noreferrer">Task 5 - Flexbox Layout</a></li>
-                <li><a href="./csstask/task6.html" target="_blank" rel="noopener noreferrer">Task 6 - Grid Layout</a></li>
-                <li><a href="./csstask/task7.html" target="_blank" rel="noopener noreferrer">Task 7 - Advanced Selectors</a></li>
-            </ul>
-        </div>
+    <h3>Tasks of CSS</h3>
+    <a href="./csstask/task1.html" target="_blank">Task 1</a><br>
+    <a href="./csstask/task2.html" target="_blank">Task 2</a><br>
+    <a href="./csstask/task3.html" target="_blank">Task 3</a><br>
+    <a href="./csstask/task4.html" target="_blank">Task 4</a><br>
+    <a href="./csstask/task5.html" target="_blank">Task 5</a><br>
+    <a href="./csstask/task6.html" target="_blank">Task 6</a><br>
+    <a href="./csstask/task7.html" target="_blank">Task 7</a><br>
 
-        <div class="task-section" style="animation-delay: 0.8s;">
-            <h2>Bootstrap Tasks</h2>
-            <ul class="task-list">
-                <li><a href="./Bootstraptask/task1.html" target="_blank" rel="noopener noreferrer">Task 1 - Basic Template</a></li>
-                <li><a href="./Bootstraptask/task2.html" target="_blank" rel="noopener noreferrer">Task 2 - Responsive Grid</a></li>
-                <li><a href="./Bootstraptask/task3.html" target="_blank" rel="noopener noreferrer">Task 3 - Bootstrap Components</a></li>
-                <li><a href="./Bootstraptask/task4.html" target="_blank" rel="noopener noreferrer">Task 4 - Navigation Systems</a></li>
-                <li><a href="./Bootstraptask/task5.html" target="_blank" rel="noopener noreferrer">Task 5 - Custom Styling</a></li>
-                <li><a href="./Bootstraptask/task6.html" target="_blank" rel="noopener noreferrer">Task 6 - Bootstrap Utilities</a></li>
-            </ul>
-        </div>
-    </div>
+    <h3>Tasks of Bootstrap</h3>
+    <a href="./Bootstraptask/task1.html" target="_blank">Task 1</a><br>
+    <a href="./Bootstraptask/task2.html" target="_blank">Task 2</a><br>
+    <a href="./Bootstraptask/task3.html" target="_blank">Task 3</a><br>
+    <a href="./Bootstraptask/task4.html" target="_blank">Task 4</a><br>
+    <a href="./Bootstraptask/task5.html" target="_blank">Task 5</a><br>
+    <a href="./Bootstraptask/task6.html" target="_blank">Task 6</a><br>
 
-    <footer>
-        <p>&copy; 2025 Kartikey Vishwakarma. All Rights Reserved.</p>
-    </footer>
+    <h3>JavaScript Tasks</h3>
+    <ul>
+        <li><a href="./JS-Tasks/js-task1.html" target="_blank">Task 1</a></li>
+        <li><a href="./JS-Tasks/js-task2.html" target="_blank">Task 2</a></li>
+        <li><a href="./JS-Tasks/js-task3.html" target="_blank">Task 3</a></li>
+        <li><a href="./JS-Tasks/js-task4.html" target="_blank">Task 4</a></li>
+        <li><a href="./JS-Tasks/js-task5.html" target="_blank">Task 5</a></li>
+        <li><a href="./JS-Tasks/js-task6.html" target="_blank">Task 6</a></li>
+        <li><a href="./JS-Tasks/js-task7.html" target="_blank">Task 7</a></li>
+        <li><a href="./JS-Tasks/js-task8.html" target="_blank">Task 8</a></li>
+        <li><a href="./JS-Tasks/Task9/index.html" target="_blank">Task 9</a></li>            
+    </ul>
+
 </body>
 </html>
