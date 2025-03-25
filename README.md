@@ -1,12 +1,13 @@
-# vit-internship-22BHI10079..
-Ethnus Mern Assignment
+# VIT Internship - Ethnus MERN Assignment
 
-Name: kartikey Vishwakarma
-Registration No.: 22BHI10079
-Email: kartikeyvishwakarma2022@vitbhopal.ac.in
+## Student Details
+- **Name:** Kartikey Vishwakarma  
+- **Registration No.:** 22BHI10079  
+- **Email:** [kartikeyvishwakarma2022@vitbhopal.ac.in](mailto:kartikeyvishwakarma2022@vitbhopal.ac.in)  
 
-Completed Tasks
-HTML
-CSS
-Bootstrap
-Javascript
+## Completed Tasks  
+### ✅ HTML  
+### ✅ CSS  
+### ✅ Bootstrap  
+### ✅ JavaScript  
+ 
